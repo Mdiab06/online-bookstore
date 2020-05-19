@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face{
+    font-family :  'Pangolin', cursive;
+    src : url("/assetss/fonts/googleFonts/Pangolin-Regular.ttf") format(truetype);
+}
+
+
+h1 {
+    font-family: 'Pangolin', cursive;
+}
