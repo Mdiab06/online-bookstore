@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
 @font-face{
     font-family :  'Pangolin', cursive;
     src : url("/assetss/fonts/googleFonts/Pangolin-Regular.ttf") format(truetype);
@@ -7,4 +9,29 @@
 
 h1 {
     font-family: 'Pangolin', cursive;
+}
+
+body {
+    background-color: tan ;
+    padding-top: 56px;
+}
+
+body , html{
+    height : 100%;
+}
+
+.footer {
+    position : absolute;
+    bottom : 10px;
+    height : 60px;
+
+}
+
+.wrapper {
+    min-height : 100%;
+    position : relative;
+}
+
+.content {
+    padding-bottom: 100px;
 }
